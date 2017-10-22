@@ -1420,6 +1420,7 @@ ul.skills__list--right {
 		transition: opacity .4s ease-in-out;
 		color: #fff;
 		padding: .75rem;
+		cursor: pointer;
 	}
 
 .certificates__certificate-description:hover {

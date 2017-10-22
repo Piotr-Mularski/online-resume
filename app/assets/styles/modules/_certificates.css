@@ -57,7 +57,6 @@
 		transition: opacity .4s ease-in-out;
 		color: #fff;
 		padding: .75rem;
-		cursor: pointer;
 
 		&:hover {
 			opacity: 1;
