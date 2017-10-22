@@ -1,0 +1,66 @@
+.hobbies {
+	
+	&__hobbies-block {
+		margin: 2rem auto 0 auto;
+		max-width: 800px;
+		padding: 1rem;
+		background-color: rgba(#fff, .6);
+		-webkit-box-shadow: 4px 4px 8px 1px rgba(205,205,205,1);
+		-moz-box-shadow: 4px 4px 8px 1px rgba(205,205,205,1);
+		box-shadow: 4px 4px 8px 1px rgba(205,205,205,1);
+
+		&--icon {
+			margin: 1rem auto;
+			width: 76.7px;
+			display: block;
+
+			@mixin atSmall {
+				float: left;
+				width: 102px;
+				&--inverted {
+					float: right;
+				}
+			}
+		}
+
+		&__text {
+
+			&--subtitle {
+				text-align: center;
+				font-weight: 300;
+				margin-bottom: .8rem;
+				font-size: 1.4rem;
+
+				@mixin atSmall {
+					text-align: left;
+				}
+			}
+
+			&--content {
+				margin-top: .5rem;
+				text-align: justify;
+				font-size: .9rem;
+			}
+			
+			@mixin atSmall {
+				margin-left: 102px;
+				padding-left: 1rem;
+				&--inverted {
+					margin-left: auto;
+					padding-left: auto;
+					margin-right: 102px;
+					padding-right: 1rem;
+				}
+			}
+
+			&--link {
+				color: #3aafa9;
+				&:hover {
+					color: #80DEEA;
+				}
+			}
+
+			@mixin clearfix;
+		}
+	}
+}

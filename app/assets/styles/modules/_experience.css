@@ -1,0 +1,97 @@
+.experience {
+
+
+	& ul {
+		margin: 0 10px;
+		padding: 0;
+		list-style-type: none;
+		position: relative;
+	}
+
+	& li:first-of-type {
+		padding: 0 0;
+	}
+
+	& li {
+		padding: .2rem 0;
+		font-size: .9rem;
+
+		@mixin atMedium {
+			font-size: 1rem;
+		}
+	}
+
+	& li:before
+	{  
+	font-family: 'FontAwesome';
+	content: '\f101';
+	margin: 0 10px 0 0;
+	color: $mainColor;
+	position: absolute;
+ 	left: -13px;
+	}
+
+	&__date {
+					
+		margin-top: 0;
+		margin-bottom: 0;
+		font-size: .9rem;
+		line-height: 1rem;
+
+		@mixin atMedium {
+			font-size: 1rem;
+			line-height: 1.2rem;
+		}
+	
+	}
+
+	&__company {
+		margin-top: .3rem;
+		margin-bottom: 0;
+		font-size: 1rem;
+		line-height: 1rem;
+
+
+		@mixin atMedium {
+			font-size: 1.1rem;
+			line-height: 1.2rem;
+		}
+	}
+
+	&__title {
+		margin-bottom: 8px;
+		margin-top: .3rem;
+		font-size: 1rem;
+		line-height: 1rem;
+
+		@mixin atMedium {
+			font-size: 1.1rem;
+			margin-bottom: initial;
+			line-height: 1.2rem;
+		}
+	}
+
+	&__left {
+
+		border-bottom: 2px solid $tertiaryColor;
+
+		@mixin atMedium {
+			text-align: right;
+			padding-right: 14px;
+			border-bottom: none;
+		}
+		
+	}
+
+	&__right {
+		
+		padding-top: 8px;
+
+		@mixin atMedium {
+			text-align: left;
+			padding-left: 12px;
+			border-left: 2px solid $tertiaryColor;
+			padding-top: initial;
+		}
+	}
+}

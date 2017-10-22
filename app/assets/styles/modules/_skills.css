@@ -1,0 +1,51 @@
+.skills {
+
+	&__subheader {
+		margin-top: 3rem;
+		margin-bottom: .8rem;
+		font-weight: 400;
+		text-transform: capitalize;
+	}
+
+	& ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		position: relative;
+	}
+
+	&__list {
+		& li {
+			@mixin clearfix;
+		}
+
+		&>li {
+			padding-top: .4rem;
+		}
+	}
+
+	ul&__list--left {
+		@mixin atMedium {
+			padding-right: 1.4rem;
+		}
+	}
+
+	ul&__list--right {
+		@mixin atMedium {
+			padding-left: 1.4rem;
+		}
+	}
+
+	&__separator {
+		display: block;
+		width: 75%;
+		margin: auto;
+		margin-top: 1.9rem;
+		margin-bottom: 2rem;
+		border-top: 2px solid $tertiaryColor;
+
+		@mixin atMedium {
+			display: none;
+		}
+	}
+}

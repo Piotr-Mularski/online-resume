@@ -1,0 +1,69 @@
+.skill-star {
+
+	float: right;
+	&--0:after {
+		font-family: 'FontAwesome';
+		content: '\f006 \f006 \f006 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--0-half:after {
+		font-family: 'FontAwesome';
+		content: '\f123 \f006 \f006 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--1:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f006 \f006 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--1-half:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f123 \f006 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--2:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f006 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--2-half:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f123 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--3:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f005 \f006 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--3-half:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f005 \f123 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--4:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f005 \f005 \f006';
+		color: $tertiaryColor;
+	}
+
+	&--4-half:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f005 \f005 \f123';
+		color: $tertiaryColor;
+	}
+
+	&--5:after {
+		font-family: 'FontAwesome';
+		content: '\f005 \f005 \f005 \f005 \f005';
+		color: $tertiaryColor;
+	}
+}
