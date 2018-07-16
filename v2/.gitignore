@@ -12,8 +12,13 @@
 node_modules/
 .tmp/
 dist/bundle.js
+dist/bundle.js.map
 dist/bundle.css
+dist/bundle.css.map
 dist/vendor.js
+dist/vendor.js.map
+dist/manifest.js
+dist/manifest.js.map
 
 #files with secret values
 .env.test
