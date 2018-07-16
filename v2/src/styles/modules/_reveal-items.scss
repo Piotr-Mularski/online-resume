@@ -1,0 +1,30 @@
+.reveal-item {
+	opacity: 0;
+	transition: opacity 1s ease-out;
+
+	&--is-visible {
+		opacity: 1;
+	}
+}
+
+.experience__left.reveal-item, .education__left.reveal-item {
+	transform: translateX(-10px);
+	transition: all 0.8s ease-out;
+	opacity: 0;
+
+	&--is-visible {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.experience__right.reveal-item, .education__right.reveal-item {
+	transform: translateX(10px);
+	transition: all 0.8s ease-out;
+	opacity: 0;
+
+	&--is-visible {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}

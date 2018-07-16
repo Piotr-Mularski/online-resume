@@ -5,7 +5,7 @@
 	background-color: $mainColor;
 	z-index: 0;
 
-	@mixin atMedium {
+	@include atMedium {
 		min-height: 50vh;
 		height: 500px;
 	}
@@ -26,7 +26,7 @@
 		font-size: 2.4rem;
 		font-weight: 700;
 
-		@mixin atMedium {
+		@include atMedium {
 			font-size: 3rem;
 			display: inline-block;
 		}
@@ -39,7 +39,7 @@
 		font-weight: 300;
 		font-size: 2.4rem;
 
-		@mixin atMedium {
+		@include atMedium {
 			font-size: 3rem;
 			display: inline-block;
 			padding-left: 1.5rem;

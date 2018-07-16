@@ -17,7 +17,7 @@
 			margin: 1rem auto;
 			position: relative;
 
-			@mixin atMedium {
+			@include atMedium {
 				flex-basis: 34%;
 			}
 	}
@@ -37,6 +37,13 @@
 	}
 
 	&__certificate--e12 {
+		position: relative;
+		max-width: 250px;
+		overflow: hidden;
+		margin: auto;
+	}
+
+	&__certificate--e13 {
 		position: relative;
 		max-width: 250px;
 		overflow: hidden;

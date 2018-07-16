@@ -1,0 +1,53 @@
+.skills {
+
+	&__subheader {
+		margin-top: 3rem;
+		margin-bottom: .8rem;
+		font-weight: 400;
+		text-transform: capitalize;
+	}
+
+	& ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		position: relative;
+	}
+
+	&__list {
+		& li {
+			@include clearfix;
+		}
+
+		&>li {
+			padding-top: .4rem;
+		}
+	}
+
+	&__separator {
+		display: block;
+		width: 75%;
+		margin: auto;
+		margin-top: 1.9rem;
+		margin-bottom: 2rem;
+		border-top: 2px solid $tertiaryColor;
+
+		@include atMedium {
+			display: none;
+		}
+	}
+}
+
+ul {
+	&.skills__list--left {
+		@include atMedium {
+			padding-right: 1.4rem;
+		}
+	}
+
+	&.skills__list--right {
+		@include atMedium {
+			padding-left: 1.4rem;
+		}
+	}
+}

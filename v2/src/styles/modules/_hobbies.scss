@@ -14,7 +14,7 @@
 			margin: 1rem auto;
 			width: 76.7px;
 
-			@mixin atSmall {
+			@include atSmall {
 				float: left;
 				width: 102px;
 				&--inverted {
@@ -30,7 +30,7 @@
 				margin-bottom: .8rem;
 				text-align: center;
 
-				@mixin atSmall {
+				@include atSmall {
 					text-align: left;
 				}
 			}
@@ -41,7 +41,7 @@
 				text-align: justify;
 			}
 			
-			@mixin atSmall {
+			@include atSmall {
 				margin-left: 102px;
 				padding-left: 1rem;
 				&--inverted {
@@ -59,7 +59,7 @@
 				}
 			}
 
-			@mixin clearfix;
+			@include clearfix;
 		}
 	}
 }

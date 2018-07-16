@@ -9,7 +9,7 @@
 		font-weight: 400;
 		font-size: 1.45rem;
 
-		@mixin atMedium {
+		@include atMedium {
 			font-size: 1.7rem;
 		}
 	}

@@ -1,0 +1,17 @@
+{
+	"presets": ["env", "stage-1"],
+	"plugins": ["transform-es2015-modules-commonjs"],
+	"env": {
+		"production": {
+			"presets": ["env", "stage-1"],
+			"plugins": ["transform-es2015-modules-commonjs"]
+		},
+		"test": {
+			"presets": ["env", "stage-1"],
+			"plugins": ["transform-es2015-modules-commonjs"]
+		},
+		"development": {
+		"plugins": ["transform-es2015-modules-commonjs"]
+		}
+	}
+}
