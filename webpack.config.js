@@ -67,7 +67,7 @@ module.exports = (env) => {
 			new webpack.optimize.CommonsChunkPlugin({
 				names: ['vendor', 'manifest']
 			}),
-			new CleanWebpackPlugin(['dist']),
+			new CleanWebpackPlugin(['docs']),
 			new HtmlWebpackPlugin({ template: path.join(__dirname, 'src/index.html') }),
 			new ExtractTextPlugin('[name].css'),
 			new CopyWebpackPlugin([{ from: './src/img', to: 'assets/images' }, { from: './src/download', to: './assets/download' }])
